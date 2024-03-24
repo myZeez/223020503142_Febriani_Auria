@@ -1,0 +1,110 @@
+        body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: yellowgreen;
+        color: #ffffff;
+        }
+        
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            justify-content: center;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .content {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            justify-content: center;
+
+        }
+        
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid #000000;
+            
+        }
+
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        tr {
+            border-bottom: 2px solid #000000;
+        }
+
+        th {
+            background-color: #7c7c7c;
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        input{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            /* Menyertakan padding dan border dalam perhitungan lebar */
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #000000;
+            color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+            color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer p:first-child {
+            margin-top: 0;
+        }
+
+        footer p:last-child {
+            margin-bottom: 0;
+        }
